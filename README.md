@@ -58,3 +58,53 @@ Circular arrays, rotate problems, mod operations.
 Count occurrences or find duplicates.
 
 Example: Two sum, anagrams, majority element.
+
+### B. Sorting & Searching Patterns
+
+#### Binary Search
+
+Find an element or boundary in sorted arrays.
+
+Variants: lower_bound, upper_bound, rotated array search.
+
+#### Sorting & Two-Pointer / Greedy
+
+Problems where sorting simplifies the solution.
+
+Example: Meeting rooms problem, maximum pairs.
+
+### C. Linked List Patterns
+
+#### Fast & Slow Pointers
+
+Detect cycle, middle of list.
+
+#### Reversing Linked List
+
+Reverse iteratively/recursively.
+
+#### Merge / Split Patterns
+
+Merge two sorted lists, split at middle, etc.
+
+### D. Recursion & Backtracking
+
+#### Subsets / Permutations / Combinations
+
+Maze / Grid / Path Problems
+
+DFS / BFS for Trees & Graphs
+
+### F. Dynamic Programming Patterns
+
+#### 1D DP
+
+Fibonacci, climbing stairs, max sum subsequence.
+
+#### 2D DP
+
+Grid paths, matrix chain multiplication, LCS.
+
+#### DP on Subsequences
+
+LIS, LCS, palindrome subsequences.
