@@ -117,14 +117,19 @@ LIS, LCS, palindrome subsequences.
 Input size(n) --> Allowed complexity -> Trick
 
 n <= 10^2 ---> O(n^2) fine -----> brute force works.
+
 n <= 10^3 ---> O(n^2) may be -----> try for O(nlogn) if possible
+
 n <= 10^5 ---> O(n) or O(nlogn) -----> brute force works.
+
 n<= 10^7 + ---> O(n) or O(n) -----> Avoid loops.
 
 #### step 2: Check value range --> Choose Data structure.
 
 Value Range ---- > Trick
+
 Small (<= 10^4, >=0) --> Can use frequency arrays.
+
 Large (<= 10^9,-19^9 <= val <= 10^9) --> Use HashMap / Set , to avoid frequency array.
 
 Negative numbers present ---> Sliding windows for sum may not work with negatives.
@@ -152,8 +157,13 @@ Trick: Memorize “0,1,n-1, max, min” → always test these boundaries.
 property -------------> Pattern
 
 1.Sorted array -------------> Two pointers/ Binary search
+
 2.Unsorted array,samll n ------> Brute force possible.
+
 3.Positive numbers only --------> Sliding windows for sum works.
+
 4.String,palindrome chack -------> Two pointers
+
 5.Grid/matrix ------------------->DFS/BFS.
+
 6.Graph ------------------------> BFS/DFS/Dijikstra.
